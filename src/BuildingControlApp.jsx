@@ -25,14 +25,13 @@ const MQTT_USER = "SBEMS";
 const MQTT_PASS = "Chelsies@10";
 const STATUS_TOPIC = "building/status";
 
-const ZONE_NAMES = ["Zone 1", "Zone 2", "Zone 3"];
+const ZONE_NAMES = ["Room 1", "Room 2", "Room 3"];
 const FAN_NAMES = ["Fan 1 (DHT 1)", "Fan 2 (DHT 2)"];
 
 const initialStatus = {
   lights: [
     { zone: 1, light: "OFF", motion: false, override: "AUTO" },
     { zone: 2, light: "OFF", motion: false, override: "AUTO" },
-    { zone: 3, light: "OFF", motion: false, override: "AUTO" },
   ],
   fans: [
     { fan: 1, state: "OFF", temp: null, humidity: null, override: "AUTO" },

@@ -484,7 +484,7 @@ export default function BuildingControlApp() {
                   <div className="flex items-center justify-between">
                     <div className="flex items-center gap-3">
                       <div
-                        className="w-9 h-9 rounded-xl flex items-center justify-center flex-shrink-0 transition-all duration-300"
+                        className="w-9 h-9 rounded-xl flex items-center justify-center shrink-0 transition-all duration-300"
                         style={{
                           background:
                             z.light === "ON"
@@ -555,7 +555,7 @@ export default function BuildingControlApp() {
                   <div className="flex items-center justify-between">
                     <div className="flex items-center gap-3">
                       <div
-                        className="w-9 h-9 rounded-xl flex items-center justify-center flex-shrink-0 transition-all duration-300"
+                        className="w-9 h-9 rounded-xl flex items-center justify-center shrink-0 transition-all duration-300"
                         style={{
                           background:
                             f.state === "ON"
